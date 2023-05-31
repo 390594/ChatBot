@@ -1,13 +1,13 @@
 import java.util.Scanner; //import Scanner Class
 public class Chatbot {
     public static void main(String[] args) {
-        System.out.println("Hi,my name is Alexander Graham Bell. Please ask me questions");
-        System.out.println("Where are you from?");
+        System.out.println("Hello,I am Elenore Rosevelt. Please ask me questions...");
+        System.out.println("Who's your spouse?");
         System.out.println("What was your profession?");
         System.out.println("What did you invent?");
         System.out.println("Do you have children?");
         boolean keepgoing = true;
-
+        
         while(keepgoing){
             Scanner scanner = new Scanner(System.in);
             Scanner string = new Scanner(System.in);
@@ -25,9 +25,8 @@ public class Chatbot {
                 System.out.println("I fathered 4 children. Marian Hubbard Bell, Elsie Bell, Edward Bell, Robert Bell");
             }
             else {
-                System.out.println("please enter a question from the list") ;
+                System.out.println("Ask me a question from the list") ;
             }
-
         }
     }
 }
